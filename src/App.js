@@ -1,13 +1,23 @@
 import React from "react";
 import "./App.css";
+import PhotoList from './components/PhotoList';
+import PhotoCard from "./components/PhotoCard";
+
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+      <div className="header">
+
+      </div>
+      <div className="main-container">
+        <div className="image">
+          <h1>NASA PIC OF THE DAY</h1>
+        </div>
+        <PhotoList />
+      </div>
+      <div className="footer">
+      </div>
     </div>
   );
 }
